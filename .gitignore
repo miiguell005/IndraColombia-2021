@@ -1,0 +1,10 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/IndraColombia.Api/bin/Debug/net5.0
+/IndraColombia.Api/obj
+/IndraColombia.Entity/bin/Debug/net5.0
+/IndraColombia.Entity/obj
+/IndraColombia.LogicLayer/bin/Debug/net5.0
+/IndraColombia.LogicLayer/obj
