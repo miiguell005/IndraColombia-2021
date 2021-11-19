@@ -1,0 +1,110 @@
+{
+	"id": "aa15d283-5159-8ded-85ff-3533062e49f2",
+	"name": "IndraColombia",
+	"description": "",
+	"order": [
+		"dedb1d8b-e5aa-aa4a-734d-94e3b76be1a2",
+		"ce4e0bef-0a8e-fc5f-6dbb-696cac98e77e",
+		"de746aed-4420-055f-bdb9-85fff83b0a0e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1637286511031,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "ce4e0bef-0a8e-fc5f-6dbb-696cac98e77e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44307/api/Barrio/Competencia/Casas",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "aa15d283-5159-8ded-85ff-3533062e49f2",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://localhost:44307/api/Barrio/Competencia/Casas",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1637286605090,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n    \"lstCasas\": [1, 0, 0, 0, 0, 1, 0, 0],\r\n    \"dias\": 1\r\n}\r\n"
+		},
+		{
+			"id": "de746aed-4420-055f-bdb9-85fff83b0a0e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44307/api/Compania/Envio/Paquete",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "aa15d283-5159-8ded-85ff-3533062e49f2",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://localhost:44307/api/Compania/Envio/Paquete",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1637286609306,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n    \"lstPaquetes\": [10, 60, 40, 35, 20],\r\n    \"tamanioCamion\": 90\r\n}\r\n"
+		},
+		{
+			"id": "dedb1d8b-e5aa-aa4a-734d-94e3b76be1a2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44307/api/Barrio/Competencia/Casas",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "aa15d283-5159-8ded-85ff-3533062e49f2",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://localhost:44307/api/Barrio/Competencia/Casas",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1637286597834,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n    \"lstCasas\": [1, 1, 1, 0, 1, 1, 1, 1],\r\n    \"dias\": 2\r\n}\r\n"
+		}
+	]
+}
